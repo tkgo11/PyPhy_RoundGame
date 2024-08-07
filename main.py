@@ -45,15 +45,15 @@ def on_rx(v):
         pos = randint(0,12)
         pos_list = list()
         pos_list.extend(range(int(pos-rad/2), int(pos+rad/2)))
-        if len(pos_list)<=3:
+        if len(pos_list)<=2:
             pos = randint(0,12)
             pos_list = list()
             pos_list.extend(range(int(pos-rad/2), int(pos+rad/2)))
-        if len(pos_list)<=3:
+        if len(pos_list)<=2:
             pos = randint(0,12)
             pos_list = list()
             pos_list.extend(range(int(pos-rad/2), int(pos+rad/2)))
-        if len(pos_list)<=3:
+        if len(pos_list)<=2:
             pos = randint(0,12)
             pos_list = list()
             pos_list.extend(range(int(pos-rad/2), int(pos+rad/2)))
