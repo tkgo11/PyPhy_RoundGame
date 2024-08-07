@@ -1,4 +1,4 @@
-# PhyPi_RoundGame
+# PyPhy_RoundGame
 # 설명
 
 이 코드는 MicroPython을 사용하여 NeoPixel과 SSD1306 OLED 디스플레이, Bluetooth 저에너지(BLE)를 사용하여 동작하는 게임을 구현합니다. 이 게임은 사용자가 게임을 시작하고 포인트를 얻는 간단한 로직을 포함하고 있습니다.
