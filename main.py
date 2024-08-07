@@ -74,10 +74,10 @@ def on_rx(v):
             display.text(str(score), 0, 0, 1)
             score += 1
             isPoint = False
-            speed -= speed / 10
+            speed -= speed / 5
         elif isPoint == False:
             display.fill(0)
-            display.text("GameOver", 48, 28, 1)
+            display.text("GameOver", 38, 28, 1)
             display.text(str(score), 0, 0, 1)
             isGameStarted = False
             speed = 0
